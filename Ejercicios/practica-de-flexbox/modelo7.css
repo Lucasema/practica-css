@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    height: 665px;
+}
+
+header{
+    background-color: blue;
+    height: 100px;
+}
+
+nav{
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.center-content{
+    background-color: brown;
+    display:flex;
+}
+
+aside{
+    background-color: chartreuse;
+    height: 415px;
+    width: 20%;
+}
+
+.main-content{
+    background-color: hotpink;
+    height: 415px;
+    width: 80%;
+}
+
+footer{
+    background-color: cadetblue;
+    height: 100px;
+}

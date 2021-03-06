@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    margin:0;
+}
+
+header{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+nav{
+    background-color: brown;
+    height: 50px;
+}
+
+.main-content{
+    background-color: green;
+    height: 325px;
+}
+
+footer{
+    background-color: darkblue;
+    height: 200px;
+}

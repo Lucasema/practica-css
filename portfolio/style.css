@@ -1,0 +1,43 @@
+h1{
+    margin-left: 5px;
+}
+
+.links-navegacion{
+    background-color: aqua;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+}
+
+li{
+    margin:20px;
+}
+
+header{
+    background-color: chartreuse;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+section{
+    background-color:blue;
+    margin: 20px;
+    padding: 10px;
+}
+
+.principal{
+    background-color: crimson;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: burlywood;
+    height:100px;
+    display:flex;
+    justify-content: center;
+}
