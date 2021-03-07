@@ -1,39 +1,115 @@
-h1{
-    margin-left: 5px;
+*{
+    margin:0;
+    padding: 0;
 }
+p, h1{
+    font-family: 'Montserrat', sans-serif;
+}
+/*HEADER*/
 
-.links-navegacion{
-    background-color: aqua;
+header{
+    background-color: #a1e8af;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
+}
+nav{
+    width:100%;
+}
+.menu-navegacion{
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
 }
 
-li{
+.item-nav{
     margin:20px;
 }
 
-header{
-    background-color: chartreuse;
-    height: 200px;
+.link-nav{
+    color: #747c92;
+    padding:10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.link-nav.contacto{
+    color: #a1e8af;
+    background-color: #747c92;
+    border-radius: 100px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+a:hover{
+    color: #3a2449 ;
+}
+
+/*PRESENTACIÒN*/
+
+
+.seccion-presentacion{
     display: flex;
-    align-items: center;
-}
-
-section{
-    background-color:blue;
-    margin: 20px;
-    padding: 10px;
-}
-
-.principal{
-    background-color: crimson;
-    height:400px;
-    display:flex;
+    height: 100vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
 }
+
+.seccion-info{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 50%  
+}
+.texto-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.saludo{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.nombre{
+    font-size:75px;
+    margin-left: 6px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #3A2449;
+}
+
+.datos{
+    margin-left: 10px;
+}
+.seccion-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;  
+    height: 100vh;
+    width: 50%  
+
+}
+
+.imagen{
+    width:100%;
+    height: auto;
+}
+
+/**/
+
 
 footer{
     background-color: burlywood;
