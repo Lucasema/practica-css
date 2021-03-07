@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
 }
-p, h1{
+p, h1, h2{
     font-family: 'Montserrat', sans-serif;
 }
 /*HEADER*/
@@ -37,9 +37,14 @@ nav{
 }
 .link-nav.contacto{
     color: #a1e8af;
-    background-color: #747c92;
+    background-color: #372772;
     border-radius: 100px;
+    
 }
+.link-nav.contacto:hover{
+    background-color: #747c92;
+}
+
 a:link, a:visited, a:active {
     text-decoration:none;
 }
@@ -48,13 +53,15 @@ a:hover{
     color: #3a2449 ;
 }
 
+
+
 /*PRESENTACIÒN*/
 
 
 .seccion-presentacion{
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -108,8 +115,60 @@ a:hover{
     height: auto;
 }
 
-/**/
+/*CONOCIMIENTOS*/
+.seccion-conocimientos{
+    background-color: #94c595;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+}
 
+.titulo-conocimientos{
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.descripcion-conocimientos{
+    width: 500px;
+    text-align: center;
+}
+
+.cuadricula{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.cuadricula-item{
+    background-color: #a1e8af;
+    width: 230px;
+    height: 250px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #747c92;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuadricula-item:hover{
+    border: 1px solid  #3a2449;
+    color: #3a2449;
+}
+
+.tamaño-icono{
+    font-size: 100px;
+}
+
+.titulo-conocimiento{
+    margin:20px;
+}
+/**/
 
 footer{
     background-color: burlywood;
