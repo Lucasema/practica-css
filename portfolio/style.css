@@ -2,13 +2,13 @@
     margin:0;
     padding: 0;
 }
-p, h1, h2{
+p, h1, h2, blockquote{
     font-family: 'Montserrat', sans-serif;
 }
 /*HEADER*/
 
 header{
-    background-color: #a1e8af;
+    background-color: #eaeaea;
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -31,14 +31,16 @@ nav{
 }
 
 .link-nav{
-    color: #747c92;
+    color: #4f6d7a;
     padding:10px;
     font-family: 'Montserrat', sans-serif;
 }
 .link-nav.contacto{
-    color: #a1e8af;
+    color: #c0d6df;
     background-color: #372772;
     border-radius: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
     
 }
 .link-nav.contacto:hover{
@@ -59,6 +61,7 @@ a:hover{
 
 
 .seccion-presentacion{
+    background-color: #eaeaea;
     display: flex;
     height: 100vh;
     width: 100%;
@@ -117,7 +120,7 @@ a:hover{
 
 /*CONOCIMIENTOS*/
 .seccion-conocimientos{
-    background-color: #94c595;
+    background-color: #c0d6df;
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
@@ -144,7 +147,7 @@ a:hover{
 }
 
 .cuadricula-item{
-    background-color: #a1e8af;
+    background-color: #eaeaea;
     width: 230px;
     height: 250px;
     margin: 10px;
@@ -167,11 +170,44 @@ a:hover{
 
 .titulo-conocimiento{
     margin:20px;
+    text-align: center;
+}
+/*CITA*/
+
+.seccion-cita{
+    background-color:#4f6d7a;
+    width: 100%;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cita{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: 50px;
+}
+.fa-quote-right{
+    color: #eaeaea;
+}
+
+blockquote{
+    color:#eaeaea ;
+    text-align: center;
+    font-size: 18px;
+    margin: 40px;
+}
+
+.nombre-cita{
+    color: #eaeaea;
 }
 /**/
-
 footer{
-    background-color: burlywood;
+    background-color: #dd6e42;
     height:100px;
     display:flex;
     justify-content: center;
