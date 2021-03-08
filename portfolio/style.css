@@ -2,6 +2,11 @@
     margin:0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 p, h1, h2, blockquote{
     font-family: 'Montserrat', sans-serif;
 }
@@ -35,6 +40,12 @@ nav{
     padding:10px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.link-nav:active{
+    border-radius: 100px;
+    box-shadow: 0 0 5px 3px  #747c92;
+}
+
 .link-nav.contacto{
     color: #c0d6df;
     background-color: #372772;
@@ -48,6 +59,10 @@ nav{
     background-color: #747c92;
 }
 
+.link-nav.contacto:active{
+    background-color: #372772;
+    box-shadow: 0 0 5px 3px  #747c92;
+}
 a:link, a:visited, a:active {
     text-decoration:none;
 }
@@ -149,7 +164,7 @@ a:hover{
 
 .titulo-seccion-conocimientos{
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .descripcion-conocimientos{
@@ -252,8 +267,13 @@ footer{
 
 .link-nav-footer{
     color: #eaeaea;
-    padding:10px;
+    padding:5px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.link-nav-footer:active{
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px  #747c92;
 }
 
 .redes-sociales-links-footer{
