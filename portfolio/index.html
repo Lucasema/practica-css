@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Lucas Nuñez</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
@@ -32,12 +33,13 @@
     </nav>
   </header>
 
-  <div class="seccion-presentacion">
-    <div class="seccion-info">
+  <div id="presentacion" class="seccion-presentacion">
+    <div  class="seccion-info">
       <div class=texto-info>
         <p class="saludo">¡Hola!, soy</p>
         <h1 class="nombre">Lucas Nuñez</h1>
         <p class="datos">Lorem ipsum dolor sit amet.</p>
+        <a href="#proyectos" class="link-nav proyectos">LO QUE HAGO</a>
       </div>
     </div>
     <div class="seccion-imagen">
@@ -45,8 +47,8 @@
     </div>
   </div>
 
-  <section class="seccion-conocimientos">
-    <h2 class="titulo-conocimientos">Mis conocimientos</h2>
+  <section id="conocimientos" class="seccion-conocimientos">
+    <h2 class="titulo-seccion-conocimientos">Mis conocimientos</h2>
     <p class="descripcion-conocimientos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi non magni,
       libero at obcaecati veniam ipsa fuga
       vitae maiores! Laboriosam?</p>
@@ -91,8 +93,39 @@
     </div>
 
   </section>
+  
   <footer>
-    <p></p>
+    <ul class="menu-navegacion-footer">
+      <li class="item-nav-footer">
+        <a href="#presentacion" class="link-nav-footer">HOLA</a>
+      </li>
+      <li class="item-nav-footer">
+        <a href="#conocimientos" class="link-nav-footer">CONOCIMIENTOS</a>
+      </li>
+      <li class="item-nav-footer">
+        <a href="#proyectos" class="link-nav-footer">PROYECTOS</a>
+      </li>
+      <li class="item-nav-footer">
+        <a href="#contacto" class="link-nav-footer">CONTACTO</a>
+      </li>
+    </ul>
+    
+    <ul class="redes-sociales-links-footer">
+      <li class="redes-sociales-item-footer">
+        <a href="https://github.com/Lucasema" aria-label="GitHub">
+          <i class="devicon-github-original icono-red-social"></i>
+        </a>
+      </li>
+      <li class="redes-sociales-item-footer">
+        <a href="https://www.linkedin.com/in/lucas-nu%C3%B1ez-868481178/" aria-label="Linkedin">
+          <i class="devicon-linkedin-plain icono-red-social"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p class="mede-by">Hecho por Lucas ✨</p>
+    
+    
   </footer>
 </body>
 

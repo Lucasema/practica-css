@@ -43,6 +43,7 @@ nav{
     padding-right: 25px;
     
 }
+
 .link-nav.contacto:hover{
     background-color: #747c92;
 }
@@ -93,6 +94,7 @@ a:hover{
 }
 
 .nombre{
+    font-weight: 900;
     font-size:75px;
     margin-left: 6px;
     margin-top: 0;
@@ -101,8 +103,24 @@ a:hover{
 }
 
 .datos{
+    color: #4f6d7a;
     margin-left: 10px;
 }
+
+.link-nav.proyectos{
+    color: #c0d6df;
+    background-color: #372772;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.link-nav.proyectos:hover{
+    background-color: #747c92;
+}
+    
 .seccion-imagen{
     display: flex;
     align-items: center;
@@ -129,7 +147,7 @@ a:hover{
     width: 100%;
 }
 
-.titulo-conocimientos{
+.titulo-seccion-conocimientos{
     font-size: 50px;
     margin-top: 50px;
 }
@@ -148,6 +166,7 @@ a:hover{
 
 .cuadricula-item{
     background-color: #eaeaea;
+    color: #4f6d7a;
     width: 230px;
     height: 250px;
     margin: 10px;
@@ -159,6 +178,13 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
+.titulo-conocimiento{
+    font-weight: 900;
+    margin:20px;
+    text-align: center;
+}
+
 .cuadricula-item:hover{
     border: 1px solid  #3a2449;
     color: #3a2449;
@@ -167,11 +193,10 @@ a:hover{
 .tamaño-icono{
     font-size: 100px;
 }
-
-.titulo-conocimiento{
-    margin:20px;
-    text-align: center;
+.devicon-microsoftsqlserver-plain{
+    color: black;
 }
+
 /*CITA*/
 
 .seccion-cita{
@@ -205,10 +230,54 @@ blockquote{
 .nombre-cita{
     color: #eaeaea;
 }
-/**/
+/*FOOTER*/
+
 footer{
     background-color: #dd6e42;
-    height:100px;
+    height:250px;
     display:flex;
+    flex-direction: column;
+}
+
+.menu-navegacion-footer{
+    display: flex;
+    list-style-type: none;
     justify-content: center;
+}
+
+.item-nav-footer{
+    margin-top: 80px;
+    margin-right:20px;
+}
+
+.link-nav-footer{
+    color: #eaeaea;
+    padding:10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.redes-sociales-links-footer{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.redes-sociales-item-footer{
+    margin-right: 15px;
+}
+
+.icono-red-social{
+    font-size: 40px;
+    color: #eaeaea;
+}
+
+.icono-red-social:hover{
+    color: #3a2449 ;
+}
+
+.mede-by{
+    color: #eaeaea;
+    text-align: center;
 }
